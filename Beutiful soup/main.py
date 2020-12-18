@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import math
+
 
 response = requests.get(url="https://news.ycombinator.com/")
 pages_online = response.text
